@@ -1,0 +1,4 @@
+J:\Modding\Github\MorrowRim-Dunmer_Lamp_Pack\1.4\Assemblies\Mashed_ColourableLantern.dll
+J:\Modding\Github\MorrowRim-Dunmer_Lamp_Pack\1.4\Source\Mashed_ColourableLantern\Mashed_ColourableLantern\obj\Debug\Mashed_ColourableLantern.csproj.AssemblyReference.cache
+J:\Modding\Github\MorrowRim-Dunmer_Lamp_Pack\1.4\Source\Mashed_ColourableLantern\Mashed_ColourableLantern\obj\Debug\Mashed_ColourableLantern.csproj.CoreCompileInputs.cache
+J:\Modding\Github\MorrowRim-Dunmer_Lamp_Pack\1.4\Source\Mashed_ColourableLantern\Mashed_ColourableLantern\obj\Debug\Mashed_ColourableLantern.dll

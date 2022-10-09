@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_Base] ===== -->
+	<ThingDef ParentName="StandingLampBase" Name="MorrowRim_DunmerPaperLanternElectric_Base" Abstract="True">
+		<label>Dunmeri paper lamp</label>
+		<description>A traditional Dunmeri paper lantern, containing an electrical standing lamp.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(214,148,94,0)</glowColor>
+				<colorPickerEnabled>true</colorPickerEnabled>
+				<darklightToggle>true</darklightToggle>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li Class="Mashed_ColourableLantern.CompProperties_GlowColourMatcher"/>
+		</comps>
+		<designatorDropdown>MorrowRim_DunmerElectricLanterns</designatorDropdown>
+	</ThingDef>
+	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_A] ===== -->
+	<ThingDef ParentName="MorrowRim_DunmerPaperLanternElectric_Base">
+		<defName>MorrowRim_DunmerPaperLanternElectric_A</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/MorrowRim_DunmerPaperLanterns/MorrowRim_DunmerPaperLantern_A</texPath>
+		</graphicData>
+		<costList Inherit="False">
+			<Steel>10</Steel>
+			<WoodLog>10</WoodLog>
+		</costList>
+	</ThingDef>
+	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_B] ===== -->
+	<ThingDef ParentName="MorrowRim_DunmerPaperLanternElectric_Base">
+		<defName>MorrowRim_DunmerPaperLanternElectric_B</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/MorrowRim_DunmerPaperLanterns/MorrowRim_DunmerPaperLantern_B</texPath>
+		</graphicData>
+		<costList Inherit="False">
+			<Steel>5</Steel>
+			<WoodLog>15</WoodLog>
+		</costList>
+	</ThingDef>
+	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_C] ===== -->
+	<ThingDef ParentName="MorrowRim_DunmerPaperLanternElectric_Base">
+		<defName>MorrowRim_DunmerPaperLanternElectric_C</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/MorrowRim_DunmerPaperLanterns/MorrowRim_DunmerPaperLantern_C</texPath>
+		</graphicData>
+		<costList Inherit="False">
+			<Steel>15</Steel>
+			<WoodLog>5</WoodLog>
+		</costList>
+	</ThingDef>
+	<!-- ===== [MorrowRim_DunmerAshlanderLanternElectric_A] ===== -->
+	<ThingDef ParentName="MorrowRim_DunmerPaperLanternElectric_Base">
+		<defName>MorrowRim_DunmerAshlanderLanternElectric_A</defName>
+		<label>Ashlander paper lamp</label>
+		<description>An Ashlander lantern, containing an electrical standing lamp. While traditionally made using insect elytra, this one is instead made using paper.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/MorrowRim_DunmerPaperLanterns/ESCP_AshlanderLantern_A</texPath>
+		</graphicData>
+		<costList Inherit="False">
+			<Steel>5</Steel>
+			<WoodLog>15</WoodLog>
+		</costList>
+	</ThingDef>
+</Defs>

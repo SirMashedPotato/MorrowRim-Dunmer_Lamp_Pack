@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>MorrowRim - Dunmer Lantern Pack</name>
+	<packageId>SirMashedPotato.MorrowRim.DunmerLanternPack</packageId>
+	<author>SirMashedPotato</author>
+	<supportedVersions>
+    	<li>1.4</li>
+	</supportedVersions>
+	<description>Adds in Dunmer lanterns, in both fueled and powered variations. These lanterns match the colour of the glow they emit.\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios.
+	</description>
+</ModMetaData>

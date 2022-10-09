@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<DesignatorDropdownGroupDef>
+		<defName>MorrowRim_DunmerFueledLanterns</defName>
+		<label>Dunmer fueled lanterns</label>
+	</DesignatorDropdownGroupDef>
+	<DesignatorDropdownGroupDef>
+		<defName>MorrowRim_DunmerElectricLanterns</defName>
+		<label>Dunmer electric lanterns</label>
+	</DesignatorDropdownGroupDef>
+</Defs>

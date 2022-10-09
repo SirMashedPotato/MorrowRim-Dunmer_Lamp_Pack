@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ESCP - Dunmer</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[@Name="MorrowRim_DunmerPaperLanternFueled_Base" or @Name="MorrowRim_DunmerPaperLanternElectric_Base"]</xpath>
+					<value>
+						<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="MorrowRim_DunmerAshlanderLanternFueled_A" or defName="MorrowRim_DunmerAshlanderLanternElectric_A]</xpath>
+					<value>
+						<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_AshlanderStyle</dominantStyleCategory>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
