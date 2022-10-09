@@ -3,16 +3,17 @@
 	<!-- ===== [MorrowRim_DunmerPaperLanternFueled_Base] ===== -->
 	<ThingDef ParentName="BuildingBase" Name="MorrowRim_DunmerPaperLanternFueled_Base" Abstract="True">
 		<label>Dunmeri paper lantern</label>
-		<description>A traditional Dunmeri paper lantern, containing a small torch. Can be automatically refueled with wood, and produces a small amount of heat.</description>
+		<description>A traditional Dunmeri paper lantern, containing a small torch. Can be automatically refueled with wood, and produces a small amount of heat.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emmitted.</description>
+		<modExtensions>
+			<li Class="Mashed_ColourableLantern.BuildingProperties"/>
+		</modExtensions>
 		<category>Building</category>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconScale>0.85</uiIconScale>
 		<rotatable>false</rotatable>
-		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<pathCost>14</pathCost>
 		<constructEffect>ConstructWood</constructEffect>
@@ -63,6 +64,10 @@
 		<designationCategory>Furniture</designationCategory>
 		<uiOrder>2800</uiOrder>
 		<designatorDropdown>MorrowRim_DunmerFueledLanterns</designatorDropdown>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<building>
+	        <isEdifice>false</isEdifice>    
+		</building>
 	</ThingDef>
 	<!-- ===== [MorrowRim_DunmerPaperLanternFueled_A] ===== -->
 	<ThingDef ParentName="MorrowRim_DunmerPaperLanternFueled_Base">

@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DefModExtensions\BuildingProperties.cs" />
     <Compile Include="Harmony\Harmony.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThingComp\CompProperties_GlowColourMatcher.cs" />
