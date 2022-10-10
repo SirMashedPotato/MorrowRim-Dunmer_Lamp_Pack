@@ -3,6 +3,7 @@
 	<name>MorrowRim - Dunmer Lantern Pack</name>
 	<packageId>SirMashedPotato.MorrowRim.DunmerLanternPack</packageId>
 	<author>SirMashedPotato</author>
+	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
