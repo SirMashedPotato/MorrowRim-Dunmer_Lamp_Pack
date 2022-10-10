@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>MorrowRim - Dunmer Lantern Pack</name>
-	<packageId>SirMashedPotato.MorrowRim.DunmerLanternPack</packageId>
+	<name>MorrowRim - Dunmer Lamp Pack</name>
+	<packageId>SirMashedPotato.MorrowRim.DunmerLampPack</packageId>
 	<author>SirMashedPotato</author>
 	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
