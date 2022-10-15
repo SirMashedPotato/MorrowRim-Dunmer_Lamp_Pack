@@ -3,9 +3,18 @@
 	<!-- ===== [MorrowRim_DunmerPaperLanternFueled_Base] ===== -->
 	<ThingDef ParentName="BuildingBase" Name="MorrowRim_DunmerPaperLanternFueled_Base" Abstract="True">
 		<label>Dunmeri paper lantern</label>
-		<description>A traditional Dunmeri paper lantern, containing a small torch. Can be automatically refueled with wood, and produces a small amount of heat.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emmitted.</description>
+		<description>A traditional Dunmeri paper lantern, containing a small torch. Can be automatically refueled with wood, and produces a small amount of heat.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emitted.</description>
 		<modExtensions>
 			<li Class="Mashed_ColourableLantern.BuildingProperties"/>
+			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Offsetter">
+				<mirror>False</mirror>
+				<offsets>
+					<li>(0,0,0.3)</li>
+					<li>(0,0,0.5)</li>
+					<li>(0,0.3,-0.3)</li>
+					<li>(0,0,-0.5)</li>
+				</offsets>
+			</li>
 		</modExtensions>
 		<category>Building</category>
 		<graphicData>
@@ -105,7 +114,7 @@
 	<ThingDef ParentName="MorrowRim_DunmerPaperLanternFueled_Base">
 		<defName>MorrowRim_DunmerAshlanderLanternFueled_A</defName>
 		<label>Ashlander paper lantern</label>
-		<description>An Ashlander lantern, containing a small torch. While traditionally made using insect elytra, this one is instead made using paper. Can be automatically refueled with wood, and produces a small amount of heat.</description>
+		<description>An Ashlander lantern, containing a small torch. While traditionally made using insect elytra, this one is instead made using paper. Can be automatically refueled with wood, and produces a small amount of heat.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emitted.</description>
 		<graphicData>
 			<texPath>Things/Building/Furniture/MorrowRim_DunmerPaperLanterns/ESCP_AshlanderLantern_A</texPath>
 		</graphicData>

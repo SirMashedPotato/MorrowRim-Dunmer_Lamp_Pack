@@ -3,9 +3,18 @@
 	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_Base] ===== -->
 	<ThingDef ParentName="StandingLampBase" Name="MorrowRim_DunmerPaperLanternElectric_Base" Abstract="True">
 		<label>Dunmeri paper lamp</label>
-		<description>A traditional Dunmeri paper lantern, containing an electrical standing lamp.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emmitted.</description>
+		<description>A traditional Dunmeri paper lantern, containing an electrical standing lamp.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emitted.</description>
 		<modExtensions>
 			<li Class="Mashed_ColourableLantern.BuildingProperties"/>
+			<li MayRequire="owlchemist.perspectivebuildings" Class="Perspective.Offsetter">
+				<mirror>False</mirror>
+				<offsets>
+					<li>(0,0,0.3)</li>
+					<li>(0,0,0.5)</li>
+					<li>(0,0.3,-0.3)</li>
+					<li>(0,0,-0.5)</li>
+				</offsets>
+			</li>
 		</modExtensions>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
@@ -65,7 +74,7 @@
 	<ThingDef ParentName="MorrowRim_DunmerPaperLanternElectric_Base">
 		<defName>MorrowRim_DunmerAshlanderLanternElectric_A</defName>
 		<label>Ashlander paper lamp</label>
-		<description>An Ashlander lantern, containing an electrical standing lamp. While traditionally made using insect elytra, this one is instead made using paper.</description>
+		<description>An Ashlander lantern, containing an electrical standing lamp. While traditionally made using insect elytra, this one is instead made using paper.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emitted.</description>
 		<graphicData>
 			<texPath>Things/Building/Furniture/MorrowRim_DunmerPaperLanterns/ESCP_AshlanderLantern_A</texPath>
 		</graphicData>
