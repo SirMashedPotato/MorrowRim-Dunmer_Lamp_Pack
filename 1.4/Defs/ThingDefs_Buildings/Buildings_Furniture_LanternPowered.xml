@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_Base] ===== -->
-	<ThingDef ParentName="StandingLampBase" Name="MorrowRim_DunmerPaperLanternElectric_Base" Abstract="True">
+	<ThingDef ParentName="LampBase" Name="MorrowRim_DunmerPaperLanternElectric_Base" Abstract="True">
 		<label>Dunmeri paper lamp</label>
 		<description>A traditional Dunmeri paper lantern, containing an electrical standing lamp.\n\nCan be placed on top of buildings, and the colour of the paper matches the colour of the light emitted.</description>
 		<modExtensions>
@@ -19,7 +19,26 @@
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<uiOrder>2990</uiOrder>
 		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>30</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+			<li Class="CompProperties_Styleable"/>
 			<li Class="CompProperties_Glower">
 				<glowRadius>12</glowRadius>
 				<glowColor>(214,148,94,0)</glowColor>
@@ -34,7 +53,7 @@
 		<designatorDropdown>MorrowRim_DunmerElectricLanterns</designatorDropdown>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<building>
-	        <isEdifice>false</isEdifice>    
+			<isEdifice>false</isEdifice>
 		</building>
 	</ThingDef>
 	<!-- ===== [MorrowRim_DunmerPaperLanternElectric_A] ===== -->
