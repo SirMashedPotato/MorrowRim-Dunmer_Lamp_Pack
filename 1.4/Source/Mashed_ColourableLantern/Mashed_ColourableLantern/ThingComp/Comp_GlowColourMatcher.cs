@@ -1,5 +1,4 @@
-﻿using RimWorld;
-using Verse;
+﻿using Verse;
 
 namespace Mashed_ColourableLantern
 {
@@ -40,7 +39,14 @@ namespace Mashed_ColourableLantern
         {
 			colorOverride = compGlower.GlowColor;
 			colorOverride.a = 255;
-			parent.SetColor(colorOverride.ToColor);
+            if (!Props.useColourTwo)
+            {
+				parent.SetColor(colorOverride.ToColor);
+			}
+			else
+            {
+				parent.Graphic.colorTwo = new UnityEngine.Color(colorOverride.r, colorOverride.g, colorOverride.b, colorOverride.a);
+			}
 		}
 
 		public ColorInt colorOverride;

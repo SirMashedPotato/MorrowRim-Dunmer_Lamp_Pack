@@ -31,7 +31,6 @@ namespace Mashed_ColourableLantern
         }
     }
 
-
     [HarmonyPatch(typeof(GenConstruct), "CanPlaceBlueprintAt")]
     public static class GenConstruct_CanPlaceBlueprintOver_Patch
     {

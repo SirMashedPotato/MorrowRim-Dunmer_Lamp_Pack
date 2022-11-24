@@ -8,5 +8,7 @@ namespace Mashed_ColourableLantern
         {
             this.compClass = typeof(Comp_GlowColourMatcher);
         }
+
+        public bool useColourTwo = false;
     }
 }
