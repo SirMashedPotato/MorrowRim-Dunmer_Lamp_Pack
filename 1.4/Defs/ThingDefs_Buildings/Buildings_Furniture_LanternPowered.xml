@@ -52,6 +52,7 @@
 		</comps>
 		<designatorDropdown>MorrowRim_DunmerElectricLanterns</designatorDropdown>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<clearBuildingArea>false</clearBuildingArea>
 		<building>
 			<isEdifice>false</isEdifice>
 		</building>

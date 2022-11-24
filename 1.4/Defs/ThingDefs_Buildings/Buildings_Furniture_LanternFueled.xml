@@ -30,6 +30,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<fillPercent>0.15</fillPercent>
 		<statBases>
+			<Mass>3</Mass>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>100</WorkToBuild>
 			<Flammability>0</Flammability>
@@ -73,7 +74,12 @@
 		<designationCategory>Furniture</designationCategory>
 		<uiOrder>2800</uiOrder>
 		<designatorDropdown>MorrowRim_DunmerFueledLanterns</designatorDropdown>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 		<building>
 	        <isEdifice>false</isEdifice>    
 		</building>
