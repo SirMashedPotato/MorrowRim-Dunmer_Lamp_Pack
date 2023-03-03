@@ -3,19 +3,20 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>ESCP - Dunmer</li>
+			<li>MorrowRim - Dunmer Styles</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<li Class="PatchOperationAddModExtension">
+				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[@Name="MorrowRim_DunmerPaperLanternFueled_Base" or @Name="MorrowRim_DunmerPaperLanternElectric_Base"]</xpath>
 					<value>
 						<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerStyle</dominantStyleCategory>
 					</value>
 				</li>
-				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="MorrowRim_DunmerAshlanderLanternFueled_A" or defName="MorrowRim_DunmerAshlanderLanternElectric_A]</xpath>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="MorrowRim_DunmerAshlanderLanternFueled_A" or defName="MorrowRim_DunmerAshlanderLanternElectric_A"]</xpath>
 					<value>
-						<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_AshlanderStyle</dominantStyleCategory>
+						<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_DunmerAshlanderStyle</dominantStyleCategory>
 					</value>
 				</li>
 			</operations>
